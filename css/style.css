@@ -121,9 +121,10 @@ nav.fixed-top {
   text-align: center;
 }
 .header h5 + p {
-  font-family: "Gotham-Narrow-Book";
+  
   font-size: 20px;
   color: #ffffff;
+  font-family: "Larsseit-Medium";
 }
 .header ul.carousel-indicators {
   bottom: 280px;
@@ -413,6 +414,10 @@ p {
   z-index: 5;
   padding: 50px 100px;
   padding-right: 120px;
+  line-height: 200%;
+}
+.interlineado{
+  line-height: 200%;
 }
 @media (max-width: 1199px) {
   .about-us-content {
@@ -467,7 +472,7 @@ a {
 .fh5co-portfolio {
   padding-bottom: 0;
 }
-.fh5co-portfolio h3 {
+.fh5co-portfolio h3  {
   font-family: "Larsseit-Medium";
   color: #1e1f29;
   text-transform: uppercase;
@@ -923,3 +928,4 @@ footer.fh5co-footer .social-links li a {
   right: 0;
   min-height: 1027px;
 }
+
