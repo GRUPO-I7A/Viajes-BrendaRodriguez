@@ -386,6 +386,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+
 }
 
 h6, .h6 {
@@ -616,8 +617,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .col {
@@ -5986,7 +5987,7 @@ button.close {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: 550px;
   left: 0;
   z-index: 15;
   display: -ms-flexbox;

@@ -103,21 +103,21 @@ nav.fixed-top {
   top: 383px;
 }
 .header .frst-hrd {
-  font-family: "Gotham-Narrow-Light";
-  background-color: rgba(255, 255, 255, 0.29);
-  border-radius: 20px;
-  max-width: 274px;
+  font-family: "segoeui";
+  background-color: rgba(223, 223, 231, 0.623);
+  border-radius: 30px;
+  max-width: 270px;
   margin: 0 auto;
   padding: 5px;
-  font-size: 16px;
-  color: #ffffff;
+  font-size: 20px;
+  color: #ffffffee;
 }
 .header h5 {
-  font-size: 70px;
+  font-size: 56px;
   font-family: "Larsseit-Bold";
   text-transform: uppercase;
   max-width: 600px;
-  margin: 10px auto;
+  margin: 5px auto;
   text-align: center;
 }
 .header h5 + p {
@@ -127,9 +127,10 @@ nav.fixed-top {
   font-family: "Larsseit-Medium";
 }
 .header ul.carousel-indicators {
-  bottom: 280px;
+  bottom: 320px;
   position: absolute;
   z-index: 55;
+  
 }
 .header ul.carousel-indicators li {
   background-color: rgba(255, 255, 255, 0.349);
@@ -320,10 +321,10 @@ h2 {
 h2::before {
   position: absolute;
   content: "";
-  width: 118px;
-  height: 2px;
-  margin-top: 18px;
-  margin-left: -140px;
+  width: 100px;
+  height: 15px;
+  margin-top: 17px;
+  margin-left: -120px;
 }
 h2::after {
   position: absolute;
@@ -331,7 +332,7 @@ h2::after {
   height: 10px;
   width: 10px;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 p {
@@ -417,7 +418,11 @@ p {
   line-height: 200%;
 }
 .interlineado{
+  font-size: 15px;
   line-height: 200%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+color: #666666;
+text-align: justify;
 }
 @media (max-width: 1199px) {
   .about-us-content {
